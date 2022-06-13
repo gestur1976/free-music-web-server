@@ -1,7 +1,5 @@
 # free-music-web-server
 
-FREE MUSIC WEB SERVER
-
 Music webserver. Search a song and in seconds you'll be listening, watching or downloading it. Easy!
 
 Alpine based image with apache2, php8.0-fpm, node.js and youtube-dl.
