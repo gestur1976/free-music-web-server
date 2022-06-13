@@ -20,7 +20,7 @@ mkdir -p /var/www/freemusicserver
 
 docker run -d --name freemusicwebserver -p 7997:80 -v /var/www/freemusicserver:/usr/local/apache2/htdocs gestur1976/freemusicwebserver:latest
 
-Type in your browser http://localhost:7997/ and enjoy.
+Point your browser to http://localhost:7997/ and enjoy.
 
 To build the container yourself clone the repository and inside the folder run ./build.sh
 
