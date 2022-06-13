@@ -1,6 +1,6 @@
 # free-music-web-server
 
-[https://hub.docker.com/r/gestur1976/freemusicwebserver]
+https://hub.docker.com/r/gestur1976/freemusicwebserver
 
 
 Music webserver. Search a song and in seconds you'll be listening, watching or downloading it. Easy!
