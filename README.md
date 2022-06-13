@@ -4,7 +4,7 @@ Music webserver. Search a song and in seconds you'll be listening, watching or d
 
 Alpine based image with apache2, php8.0-fpm, node.js and youtube-dl.
 
-It starts a web server where you can search a song (or anything) and it downloads it using youtube_dl and seconds later starts autoplaying.
+It starts a web server where you can search a song (or anything) and it downloads it using youtube_dl, converts it to required format using ffmpeg and seconds later starts autoplaying.
 
 You can get either the audio file (.mp3) or the video (.mp4) both of them downloadable from the media player.
 
@@ -20,3 +20,8 @@ docker run -d --name freemusicwebserver -p 7997:80 -v /var/www/freemusicserver:/
 Type in your browser http://localhost:7997/ and enjoy.
 
 To build the container yourself clone the repository and inside the folder run ./build.sh
+
+Many thanks to youtube-dl and ffmpeg team:
+
+https://youtube-dl.org/
+https://ffmpeg.org/
